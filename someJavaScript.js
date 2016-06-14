@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var names = ['Ethan','Annie','Ying','Jennifer','Christine','Caroline','Roland','Aleah','Kyle'];
+  var names = ['Ethan','Annie','Jennifer'];
   var extraNames = ['The Ghost of Last-Minute-Christmas-Shopping','Two Chains','Bollard'];
   var glyphs = ['star','heart','film','tint','fire','leaf','globe','usd','send']
   console.log( 4- names.length % 4);
