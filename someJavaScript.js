@@ -17,7 +17,7 @@ $(document).ready(function(){
   for( var i = 0; i < rows; i++){
     paste += "<div class='row'>";
     for( var j = 0; j < 4; j++){
-      paste+="<div style='margin-top: 5px; margin-bottom: 5px;' class='col-sm-3'>";
+      paste+="<div style='margin-top: 5px; margin-bottom: 5px;' class='col-sm-3 col-xs-6'>";
       paste+="<span style='font-size: 4em;' class='glyphicon glyphicon-"
       paste+=glyphs[ Math.floor( Math.random() * glyphs.length ) ]
       paste+="'></span><br>";
